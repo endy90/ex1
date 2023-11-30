@@ -18,7 +18,6 @@ provider "vultr" {
 resource "vultr_instance" "web" {
     label = "my_instance" #Nom
     plan     = "vc2-1c-1gb"
-    region   = "fra"
     os_id = 362  #SE_UBUNTU
     region = "PAR"  #Region PARIS
 
